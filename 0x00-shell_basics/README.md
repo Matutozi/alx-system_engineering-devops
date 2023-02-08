@@ -1,1 +1,1 @@
-this is used to explain your code
+script that prints the absolute path name of the current working directory.
