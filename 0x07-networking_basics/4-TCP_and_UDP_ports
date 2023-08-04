@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script diaplays lostening ports:
+# It only shows listening ports
+# It shows the PID and the name of the program to which each socket belongs to
+
+netstat -lp
