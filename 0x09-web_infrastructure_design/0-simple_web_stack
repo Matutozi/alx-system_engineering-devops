@@ -1,1 +1,9 @@
 https://github.com/Matutozi/alx-system_engineering-devops/blob/main/0x09-web_infrastructure_design/0-simple_web_stack.png
+
+
+ISSUES WITH INFRASTRUCTURE
+Single Point of Failure (SPOF):Since we have only one server, the entire website becomes inaccessible if it goes down due to hardware failure or other issues. We can consider setting up a failover mechanism or using load balancing with multiple servers to address this.
+
+Downtime During Maintenance: When we need to perform maintenance tasks, such as deploying new code, we may need to restart the web server, which can result in temporary downtime. To minimize this, we can use rolling deployments or hot-swapping techniques.
+
+Limited Scalability:With only one server, the infrastructure cannot handle a significant increase in incoming traffic. To scale, we can either vertically scale the server's resources (e.g., more RAM, CPU) or horizontally scale by adding more servers and distributing the load.
