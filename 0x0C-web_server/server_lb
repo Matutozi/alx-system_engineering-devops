@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#script to connect to my webserver which i use as my load balancer
+
+eval $("ssh-agent")
+ssh-add ~/.ssh/id_rsa 
+
+ssh ubuntu@54.236.33.48	
+

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# script that boots the server
+
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/school
+
+ssh ubuntu@35.174.211.219
